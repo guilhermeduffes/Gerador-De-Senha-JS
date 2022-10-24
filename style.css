@@ -1,0 +1,95 @@
+
+body {
+    background: #ecf0f3;
+}
+
+
+.btn{
+font-family: Prata;
+font-weight: 450;
+font-size: 20px;
+color: #ffffff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: none;
+border-radius: 16px;
+transition : 660ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+margin: 20px;
+
+}
+
+.btn:hover{
+
+transition : 659ms;
+padding: 10px 17px;
+transform : translateY(-15px);
+background-color: #ffffff;
+color: #ff0000;
+border: none;
+}
+
+.butoes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+svg{
+    display: flex;
+    width: 20px;
+    margin-left: 10px;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-self: end;
+    padding-bottom: 35px;
+    color: black;
+}
+
+#cadeado{
+    height: 100px;
+    width: 100px;
+    background: url(assets/lock36px.svg);
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    background-size: cover;
+}
+
+.senhaResposta{
+    width: 169px;
+    height: 15px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.SenhaEscrita{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+form{
+    display: block;
+}
+
+.neuphor{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20%;
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    background: #dfdfdf;
+    box-shadow:  6px 6px 18px #000000, -6px -6px 18px #ffffff;
+    
+}
